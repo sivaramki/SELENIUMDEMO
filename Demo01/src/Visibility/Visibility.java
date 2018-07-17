@@ -17,7 +17,7 @@ public class Visibility {
 
               // objects and variables instantiation
     	       // System.setProperty("webdriver.firefox.marionette","D:\\siva\\eclipse\\workspace\\Demo01\\drivers\\geckodriver.exe");
-    	   System.setProperty("webdriver.chrome.driver", "D:\\siva\\eclipse\\workspace\\Demo01\\drivers\\chromedriver.exe");
+    	   System.setProperty("webdriver.chrome.driver", "/home/ec2-user/SELENIUMDEMO/Demo01/drivers/chromedriver.exe");
               WebDriver driver = new ChromeDriver();
               String appUrl = "https://google.com";
 
